@@ -1,0 +1,21 @@
+{
+	"home": {
+		"home":"按钮",
+		"title":"标题",
+		"nav":"导航"
+	},
+	"setting": {
+		"lang_type":2,
+		"setting":"系统设置",
+		"setting_lang":"系统语言",
+		"lang":"中文",
+		"feedback":"意见反馈",
+		"about":"关于我们",
+		"outLogin":"退出登录",
+		"cancel":"取消",
+		"confirm":"确认",
+		"Chinese":"中文",
+		"English":"英文",
+		"India":"印度"
+	}
+}

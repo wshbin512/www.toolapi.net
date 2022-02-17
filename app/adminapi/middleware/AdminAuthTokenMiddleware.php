@@ -1,0 +1,49 @@
+<?php
+// +----------------------------------------------------------------------
+// | TOOLAPI [ TOOLAPI赋能开发者，助力企业发展 ]
+// +----------------------------------------------------------------------
+// | Copyright (c) 2022~2032 https://www.toolapi.net All rights reserved.
+// +----------------------------------------------------------------------
+// | Licensed TOOLAPI并不是自由软件，未经许可不能去掉TOOLAPI相关版权
+// +----------------------------------------------------------------------
+// | Author: TOOLAPI Team <admin@toolapi.net>
+// +----------------------------------------------------------------------
+
+namespace app\adminapi\middleware;
+
+
+use app\Request;
+use app\services\system\admin\AdminAuthServices;
+use crmeb\interfaces\MiddlewareInterface;
+use think\facade\Config;
+
+/**
+ * 后台登陆验证中间件
+ * Class AdminAuthTokenMiddleware
+ * @package app\adminapi\middleware
+ */
+class AdminAuthTokenMiddleware implements MiddlewareInterface
+{
+    public function handle(Request $request, \Closure $next)
+    {
+        $authInfo = null;
+        $token = trim(ltrim($request->header(Config::get('cookie.token_name', 'Authori-zation')), 'Bearer'));
+
+        /** @var AdminAuthServices $service */
+        $service = app()->make(AdminAuthServices::class);
+        $adminInfo = $service->parseToken($token);
+
+        Request::macro('isAdminLogin', function () use (&$adminInfo) {
+            return !is_null($adminInfo);
+        });
+        Request::macro('adminId', function () use (&$adminInfo) {
+            return $adminInfo['id'];
+        });
+
+        Request::macro('adminInfo', function () use (&$adminInfo) {
+            return $adminInfo;
+        });
+
+        return $next($request);
+    }
+}

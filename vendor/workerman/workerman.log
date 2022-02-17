@@ -1,0 +1,677 @@
+2020-07-14 14:51:52 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "Trait method searchTimeAttr has not been applied, because there are collisions with other trait methods on app\model\service\StoreServiceLog in D:\WWW\CRMEB_PRO_V1.1\app\model\service\StoreServiceLog.php on line 18"
+2020-07-14 14:55:53 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "Trait method searchTimeAttr has not been applied, because there are collisions with other trait methods on app\model\service\StoreServiceLog in D:\WWW\CRMEB_PRO_V1.1\app\model\service\StoreServiceLog.php on line 18"
+2020-07-14 14:56:30 pid:1 Worker process terminated with ERROR: E_COMPILE_ERROR "Trait method searchTimeAttr has not been applied, because there are collisions with other trait methods on app\model\service\StoreServiceLog in D:\WWW\CRMEB_PRO_V1.1\app\model\service\StoreServiceLog.php on line 18"
+2020-09-18 17:55:52 pid:1 think\exception\ErrorException: Trying to get property 'uid' of non-object in D:\WWW\CRMEB_PRO_V1.1\crmeb\services\workerman\chat\ChatService.php:63
+Stack trace:
+#0 D:\WWW\CRMEB_PRO_V1.1\crmeb\services\workerman\chat\ChatService.php(63): think\initializer\Error->appError(8, 'Trying to get p...', 'D:\\WWW\\CRMEB_PR...', 63, Array)
+#1 D:\WWW\CRMEB_PRO_V1.1\crmeb\services\workerman\chat\ChatHandle.php(73): crmeb\services\workerman\chat\ChatService->setUser(Object(Workerman\Connection\TcpConnection))
+#2 D:\WWW\CRMEB_PRO_V1.1\crmeb\services\workerman\chat\ChatService.php(102): crmeb\services\workerman\chat\ChatHandle->kefu_login(Object(Workerman\Connection\TcpConnection), Array, Object(crmeb\services\workerman\Response))
+#3 [internal function]: crmeb\services\workerman\chat\ChatService->onMessage(Object(Workerman\Connection\TcpConnection), Array)
+#4 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Connection\TcpConnection.php(658): call_user_func(Array, Object(Workerman\Connection\TcpConnection), '{"type":"kefu_l...')
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #600)
+#6 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Events\Select.php(294): call_user_func_array(Array, Array)
+#7 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(2357): Workerman\Events\Select->loop()
+#8 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(1351): Workerman\Worker->run()
+#9 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(1294): Workerman\Worker::forkWorkersForWindows()
+#10 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#11 D:\WWW\CRMEB_PRO_V1.1\crmeb\command\Workerman.php(120): Workerman\Worker::runAll()
+#12 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\console\Command.php(210): crmeb\command\Workerman->execute(Object(think\console\Input), Object(think\console\Output))
+#13 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Console.php(600): think\console\Command->run(Object(think\console\Input), Object(think\console\Output))
+#14 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Console.php(259): think\Console->doRunCommand(Object(crmeb\command\Workerman), Object(think\console\Input), Object(think\console\Output))
+#15 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Console.php(196): think\Console->doRun(Object(think\console\Input), Object(think\console\Output))
+#16 D:\WWW\CRMEB_PRO_V1.1\think(19): think\Console->run()
+#17 {main}
+2020-09-18 17:55:52 pid:1 Worker process terminated
+2020-09-18 17:57:12 pid:1 think\exception\ErrorException: Trying to get property 'uid' of non-object in D:\WWW\CRMEB_PRO_V1.1\crmeb\services\workerman\chat\ChatService.php:63
+Stack trace:
+#0 D:\WWW\CRMEB_PRO_V1.1\crmeb\services\workerman\chat\ChatService.php(63): think\initializer\Error->appError(8, 'Trying to get p...', 'D:\\WWW\\CRMEB_PR...', 63, Array)
+#1 D:\WWW\CRMEB_PRO_V1.1\crmeb\services\workerman\chat\ChatHandle.php(73): crmeb\services\workerman\chat\ChatService->setUser(Object(Workerman\Connection\TcpConnection))
+#2 D:\WWW\CRMEB_PRO_V1.1\crmeb\services\workerman\chat\ChatService.php(102): crmeb\services\workerman\chat\ChatHandle->kefu_login(Object(Workerman\Connection\TcpConnection), Array, Object(crmeb\services\workerman\Response))
+#3 [internal function]: crmeb\services\workerman\chat\ChatService->onMessage(Object(Workerman\Connection\TcpConnection), Array)
+#4 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Connection\TcpConnection.php(658): call_user_func(Array, Object(Workerman\Connection\TcpConnection), '{"type":"kefu_l...')
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #600)
+#6 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Events\Select.php(294): call_user_func_array(Array, Array)
+#7 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(2357): Workerman\Events\Select->loop()
+#8 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(1351): Workerman\Worker->run()
+#9 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(1294): Workerman\Worker::forkWorkersForWindows()
+#10 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#11 D:\WWW\CRMEB_PRO_V1.1\crmeb\command\Workerman.php(120): Workerman\Worker::runAll()
+#12 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\console\Command.php(210): crmeb\command\Workerman->execute(Object(think\console\Input), Object(think\console\Output))
+#13 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Console.php(600): think\console\Command->run(Object(think\console\Input), Object(think\console\Output))
+#14 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Console.php(259): think\Console->doRunCommand(Object(crmeb\command\Workerman), Object(think\console\Input), Object(think\console\Output))
+#15 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Console.php(196): think\Console->doRun(Object(think\console\Input), Object(think\console\Output))
+#16 D:\WWW\CRMEB_PRO_V1.1\think(19): think\Console->run()
+#17 {main}
+2020-09-18 17:57:13 pid:1 Worker process terminated
+2020-09-18 18:00:53 pid:1 think\exception\ErrorException: Trying to get property 'uid' of non-object in D:\WWW\CRMEB_PRO_V1.1\crmeb\services\workerman\chat\ChatService.php:63
+Stack trace:
+#0 D:\WWW\CRMEB_PRO_V1.1\crmeb\services\workerman\chat\ChatService.php(63): think\initializer\Error->appError(8, 'Trying to get p...', 'D:\\WWW\\CRMEB_PR...', 63, Array)
+#1 D:\WWW\CRMEB_PRO_V1.1\crmeb\services\workerman\chat\ChatHandle.php(73): crmeb\services\workerman\chat\ChatService->setUser(Object(Workerman\Connection\TcpConnection))
+#2 D:\WWW\CRMEB_PRO_V1.1\crmeb\services\workerman\chat\ChatService.php(102): crmeb\services\workerman\chat\ChatHandle->kefu_login(Object(Workerman\Connection\TcpConnection), Array, Object(crmeb\services\workerman\Response))
+#3 [internal function]: crmeb\services\workerman\chat\ChatService->onMessage(Object(Workerman\Connection\TcpConnection), Array)
+#4 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Connection\TcpConnection.php(658): call_user_func(Array, Object(Workerman\Connection\TcpConnection), '{"type":"kefu_l...')
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #600)
+#6 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Events\Select.php(294): call_user_func_array(Array, Array)
+#7 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(2357): Workerman\Events\Select->loop()
+#8 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(1351): Workerman\Worker->run()
+#9 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(1294): Workerman\Worker::forkWorkersForWindows()
+#10 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#11 D:\WWW\CRMEB_PRO_V1.1\crmeb\command\Workerman.php(120): Workerman\Worker::runAll()
+#12 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\console\Command.php(210): crmeb\command\Workerman->execute(Object(think\console\Input), Object(think\console\Output))
+#13 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Console.php(600): think\console\Command->run(Object(think\console\Input), Object(think\console\Output))
+#14 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Console.php(259): think\Console->doRunCommand(Object(crmeb\command\Workerman), Object(think\console\Input), Object(think\console\Output))
+#15 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Console.php(196): think\Console->doRun(Object(think\console\Input), Object(think\console\Output))
+#16 D:\WWW\CRMEB_PRO_V1.1\think(19): think\Console->run()
+#17 {main}
+2020-09-18 18:00:53 pid:1 Worker process terminated
+2020-09-18 18:01:18 pid:1 think\exception\ErrorException: Trying to get property 'uid' of non-object in D:\WWW\CRMEB_PRO_V1.1\crmeb\services\workerman\chat\ChatService.php:63
+Stack trace:
+#0 D:\WWW\CRMEB_PRO_V1.1\crmeb\services\workerman\chat\ChatService.php(63): think\initializer\Error->appError(8, 'Trying to get p...', 'D:\\WWW\\CRMEB_PR...', 63, Array)
+#1 D:\WWW\CRMEB_PRO_V1.1\crmeb\services\workerman\chat\ChatHandle.php(73): crmeb\services\workerman\chat\ChatService->setUser(Object(Workerman\Connection\TcpConnection))
+#2 D:\WWW\CRMEB_PRO_V1.1\crmeb\services\workerman\chat\ChatService.php(102): crmeb\services\workerman\chat\ChatHandle->kefu_login(Object(Workerman\Connection\TcpConnection), Array, Object(crmeb\services\workerman\Response))
+#3 [internal function]: crmeb\services\workerman\chat\ChatService->onMessage(Object(Workerman\Connection\TcpConnection), Array)
+#4 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Connection\TcpConnection.php(658): call_user_func(Array, Object(Workerman\Connection\TcpConnection), '{"type":"kefu_l...')
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #600)
+#6 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Events\Select.php(294): call_user_func_array(Array, Array)
+#7 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(2357): Workerman\Events\Select->loop()
+#8 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(1351): Workerman\Worker->run()
+#9 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(1294): Workerman\Worker::forkWorkersForWindows()
+#10 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#11 D:\WWW\CRMEB_PRO_V1.1\crmeb\command\Workerman.php(120): Workerman\Worker::runAll()
+#12 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\console\Command.php(210): crmeb\command\Workerman->execute(Object(think\console\Input), Object(think\console\Output))
+#13 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Console.php(600): think\console\Command->run(Object(think\console\Input), Object(think\console\Output))
+#14 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Console.php(259): think\Console->doRunCommand(Object(crmeb\command\Workerman), Object(think\console\Input), Object(think\console\Output))
+#15 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Console.php(196): think\Console->doRun(Object(think\console\Input), Object(think\console\Output))
+#16 D:\WWW\CRMEB_PRO_V1.1\think(19): think\Console->run()
+#17 {main}
+2020-09-18 18:01:18 pid:1 Worker process terminated
+2020-09-18 18:01:41 pid:1 think\exception\ErrorException: Trying to get property 'uid' of non-object in D:\WWW\CRMEB_PRO_V1.1\crmeb\services\workerman\chat\ChatService.php:63
+Stack trace:
+#0 D:\WWW\CRMEB_PRO_V1.1\crmeb\services\workerman\chat\ChatService.php(63): think\initializer\Error->appError(8, 'Trying to get p...', 'D:\\WWW\\CRMEB_PR...', 63, Array)
+#1 D:\WWW\CRMEB_PRO_V1.1\crmeb\services\workerman\chat\ChatHandle.php(73): crmeb\services\workerman\chat\ChatService->setUser(Object(Workerman\Connection\TcpConnection))
+#2 D:\WWW\CRMEB_PRO_V1.1\crmeb\services\workerman\chat\ChatService.php(102): crmeb\services\workerman\chat\ChatHandle->kefu_login(Object(Workerman\Connection\TcpConnection), Array, Object(crmeb\services\workerman\Response))
+#3 [internal function]: crmeb\services\workerman\chat\ChatService->onMessage(Object(Workerman\Connection\TcpConnection), Array)
+#4 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Connection\TcpConnection.php(658): call_user_func(Array, Object(Workerman\Connection\TcpConnection), '{"type":"kefu_l...')
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #601)
+#6 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Events\Select.php(294): call_user_func_array(Array, Array)
+#7 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(2357): Workerman\Events\Select->loop()
+#8 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(1351): Workerman\Worker->run()
+#9 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(1294): Workerman\Worker::forkWorkersForWindows()
+#10 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#11 D:\WWW\CRMEB_PRO_V1.1\crmeb\command\Workerman.php(120): Workerman\Worker::runAll()
+#12 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\console\Command.php(210): crmeb\command\Workerman->execute(Object(think\console\Input), Object(think\console\Output))
+#13 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Console.php(600): think\console\Command->run(Object(think\console\Input), Object(think\console\Output))
+#14 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Console.php(259): think\Console->doRunCommand(Object(crmeb\command\Workerman), Object(think\console\Input), Object(think\console\Output))
+#15 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Console.php(196): think\Console->doRun(Object(think\console\Input), Object(think\console\Output))
+#16 D:\WWW\CRMEB_PRO_V1.1\think(19): think\Console->run()
+#17 {main}
+2020-09-18 18:01:41 pid:1 Worker process terminated
+2020-09-18 18:02:08 pid:1 think\exception\ErrorException: Trying to get property 'uid' of non-object in D:\WWW\CRMEB_PRO_V1.1\crmeb\services\workerman\chat\ChatService.php:63
+Stack trace:
+#0 D:\WWW\CRMEB_PRO_V1.1\crmeb\services\workerman\chat\ChatService.php(63): think\initializer\Error->appError(8, 'Trying to get p...', 'D:\\WWW\\CRMEB_PR...', 63, Array)
+#1 D:\WWW\CRMEB_PRO_V1.1\crmeb\services\workerman\chat\ChatHandle.php(73): crmeb\services\workerman\chat\ChatService->setUser(Object(Workerman\Connection\TcpConnection))
+#2 D:\WWW\CRMEB_PRO_V1.1\crmeb\services\workerman\chat\ChatService.php(102): crmeb\services\workerman\chat\ChatHandle->kefu_login(Object(Workerman\Connection\TcpConnection), Array, Object(crmeb\services\workerman\Response))
+#3 [internal function]: crmeb\services\workerman\chat\ChatService->onMessage(Object(Workerman\Connection\TcpConnection), Array)
+#4 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Connection\TcpConnection.php(658): call_user_func(Array, Object(Workerman\Connection\TcpConnection), '{"type":"kefu_l...')
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #600)
+#6 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Events\Select.php(294): call_user_func_array(Array, Array)
+#7 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(2357): Workerman\Events\Select->loop()
+#8 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(1351): Workerman\Worker->run()
+#9 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(1294): Workerman\Worker::forkWorkersForWindows()
+#10 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#11 D:\WWW\CRMEB_PRO_V1.1\crmeb\command\Workerman.php(120): Workerman\Worker::runAll()
+#12 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\console\Command.php(210): crmeb\command\Workerman->execute(Object(think\console\Input), Object(think\console\Output))
+#13 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Console.php(600): think\console\Command->run(Object(think\console\Input), Object(think\console\Output))
+#14 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Console.php(259): think\Console->doRunCommand(Object(crmeb\command\Workerman), Object(think\console\Input), Object(think\console\Output))
+#15 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Console.php(196): think\Console->doRun(Object(think\console\Input), Object(think\console\Output))
+#16 D:\WWW\CRMEB_PRO_V1.1\think(19): think\Console->run()
+#17 {main}
+2020-09-18 18:02:08 pid:1 Worker process terminated
+2020-09-18 18:02:54 pid:1 think\exception\ErrorException: Trying to get property 'uid' of non-object in D:\WWW\CRMEB_PRO_V1.1\crmeb\services\workerman\chat\ChatService.php:63
+Stack trace:
+#0 D:\WWW\CRMEB_PRO_V1.1\crmeb\services\workerman\chat\ChatService.php(63): think\initializer\Error->appError(8, 'Trying to get p...', 'D:\\WWW\\CRMEB_PR...', 63, Array)
+#1 D:\WWW\CRMEB_PRO_V1.1\crmeb\services\workerman\chat\ChatHandle.php(73): crmeb\services\workerman\chat\ChatService->setUser(Object(Workerman\Connection\TcpConnection))
+#2 D:\WWW\CRMEB_PRO_V1.1\crmeb\services\workerman\chat\ChatService.php(102): crmeb\services\workerman\chat\ChatHandle->kefu_login(Object(Workerman\Connection\TcpConnection), Array, Object(crmeb\services\workerman\Response))
+#3 [internal function]: crmeb\services\workerman\chat\ChatService->onMessage(Object(Workerman\Connection\TcpConnection), Array)
+#4 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Connection\TcpConnection.php(658): call_user_func(Array, Object(Workerman\Connection\TcpConnection), '{"type":"kefu_l...')
+#5 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #600)
+#6 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Events\Select.php(294): call_user_func_array(Array, Array)
+#7 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(2357): Workerman\Events\Select->loop()
+#8 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(1351): Workerman\Worker->run()
+#9 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(1294): Workerman\Worker::forkWorkersForWindows()
+#10 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#11 D:\WWW\CRMEB_PRO_V1.1\crmeb\command\Workerman.php(120): Workerman\Worker::runAll()
+#12 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\console\Command.php(210): crmeb\command\Workerman->execute(Object(think\console\Input), Object(think\console\Output))
+#13 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Console.php(600): think\console\Command->run(Object(think\console\Input), Object(think\console\Output))
+#14 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Console.php(259): think\Console->doRunCommand(Object(crmeb\command\Workerman), Object(think\console\Input), Object(think\console\Output))
+#15 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Console.php(196): think\Console->doRun(Object(think\console\Input), Object(think\console\Output))
+#16 D:\WWW\CRMEB_PRO_V1.1\think(19): think\Console->run()
+#17 {main}
+2020-09-18 18:02:54 pid:1 Worker process terminated
+2020-09-19 17:33:45 pid:1 PDOException: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away in D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\think-orm\src\db\PDOConnection.php:1403
+Stack trace:
+#0 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\think-orm\src\db\PDOConnection.php(1403): PDO->beginTransaction()
+#1 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\think-orm\src\db\PDOConnection.php(1372): think\db\PDOConnection->startTrans()
+#2 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\think-orm\src\db\concern\Transaction.php(82): think\db\PDOConnection->transaction(Object(Closure))
+#3 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\think-orm\src\Model.php(653): think\db\BaseQuery->transaction(Object(Closure))
+#4 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\think-orm\src\Model.php(534): think\Model->updateData()
+#5 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\think-orm\src\Model.php(872): think\Model->save(Array)
+#6 D:\WWW\CRMEB_PRO_V1.1\app\dao\BaseDao.php(218): think\Model::update(Array, Array)
+#7 D:\WWW\CRMEB_PRO_V1.1\app\services\message\service\StoreServiceRecordServices.php(59): app\dao\BaseDao->update(Array, Array)
+#8 D:\WWW\CRMEB_PRO_V1.1\crmeb\services\workerman\chat\ChatService.php(137): app\services\message\service\StoreServiceRecordServices->updateRecord(Array, Array)
+#9 [internal function]: crmeb\services\workerman\chat\ChatService->onClose(Object(Workerman\Connection\TcpConnection))
+#10 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Connection\TcpConnection.php(945): call_user_func(Array, Object(Workerman\Connection\TcpConnection))
+#11 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Connection\TcpConnection.php(848): Workerman\Connection\TcpConnection->destroy()
+#12 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Protocols\Websocket.php(105): Workerman\Connection\TcpConnection->close('\x88\x02'\x10', true)
+#13 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Connection\TcpConnection.php(621): Workerman\Protocols\Websocket::input('\x88\x82t\x0F#\xB1w\xE6', Object(Workerman\Connection\TcpConnection))
+#14 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #633)
+#15 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Events\Select.php(294): call_user_func_array(Array, Array)
+#16 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(2357): Workerman\Events\Select->loop()
+#17 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(1351): Workerman\Worker->run()
+#18 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(1294): Workerman\Worker::forkWorkersForWindows()
+#19 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#20 D:\WWW\CRMEB_PRO_V1.1\crmeb\command\Workerman.php(120): Workerman\Worker::runAll()
+#21 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\console\Command.php(210): crmeb\command\Workerman->execute(Object(think\console\Input), Object(think\console\Output))
+#22 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Console.php(600): think\console\Command->run(Object(think\console\Input), Object(think\console\Output))
+#23 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Console.php(259): think\Console->doRunCommand(Object(crmeb\command\Workerman), Object(think\console\Input), Object(think\console\Output))
+#24 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Console.php(196): think\Console->doRun(Object(think\console\Input), Object(think\console\Output))
+#25 D:\WWW\CRMEB_PRO_V1.1\think(19): think\Console->run()
+#26 {main}
+2020-09-19 17:33:45 pid:1 Worker process terminated
+2020-09-19 17:37:55 pid:1 Error: Call to a member function toArray() on boolean in D:\WWW\CRMEB_PRO_V1.1\app\services\message\service\StoreServiceRecordServices.php:85
+Stack trace:
+#0 D:\WWW\CRMEB_PRO_V1.1\crmeb\services\workerman\chat\ChatHandle.php(193): app\services\message\service\StoreServiceRecordServices->saveRecord(8, 10, 'asdsdas', 0, 1, 233)
+#1 D:\WWW\CRMEB_PRO_V1.1\crmeb\services\workerman\chat\ChatService.php(102): crmeb\services\workerman\chat\ChatHandle->chat(Object(Workerman\Connection\TcpConnection), Array, Object(crmeb\services\workerman\Response))
+#2 [internal function]: crmeb\services\workerman\chat\ChatService->onMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Connection\TcpConnection.php(658): call_user_func(Array, Object(Workerman\Connection\TcpConnection), '{"data":{"msn":...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #600)
+#5 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Events\Select.php(294): call_user_func_array(Array, Array)
+#6 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(2357): Workerman\Events\Select->loop()
+#7 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(1351): Workerman\Worker->run()
+#8 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(1294): Workerman\Worker::forkWorkersForWindows()
+#9 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#10 D:\WWW\CRMEB_PRO_V1.1\crmeb\command\Workerman.php(120): Workerman\Worker::runAll()
+#11 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\console\Command.php(210): crmeb\command\Workerman->execute(Object(think\console\Input), Object(think\console\Output))
+#12 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Console.php(600): think\console\Command->run(Object(think\console\Input), Object(think\console\Output))
+#13 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Console.php(259): think\Console->doRunCommand(Object(crmeb\command\Workerman), Object(think\console\Input), Object(think\console\Output))
+#14 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Console.php(196): think\Console->doRun(Object(think\console\Input), Object(think\console\Output))
+#15 D:\WWW\CRMEB_PRO_V1.1\think(19): think\Console->run()
+#16 {main}
+2020-09-19 17:37:55 pid:1 Worker process terminated
+2020-09-19 17:39:08 pid:1 Error: Call to a member function toArray() on boolean in D:\WWW\CRMEB_PRO_V1.1\app\services\message\service\StoreServiceRecordServices.php:85
+Stack trace:
+#0 D:\WWW\CRMEB_PRO_V1.1\crmeb\services\workerman\chat\ChatHandle.php(193): app\services\message\service\StoreServiceRecordServices->saveRecord(8, 10, 'asdasd', 0, 1, 234)
+#1 D:\WWW\CRMEB_PRO_V1.1\crmeb\services\workerman\chat\ChatService.php(102): crmeb\services\workerman\chat\ChatHandle->chat(Object(Workerman\Connection\TcpConnection), Array, Object(crmeb\services\workerman\Response))
+#2 [internal function]: crmeb\services\workerman\chat\ChatService->onMessage(Object(Workerman\Connection\TcpConnection), Array)
+#3 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Connection\TcpConnection.php(658): call_user_func(Array, Object(Workerman\Connection\TcpConnection), '{"data":{"msn":...')
+#4 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #600)
+#5 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Events\Select.php(294): call_user_func_array(Array, Array)
+#6 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(2357): Workerman\Events\Select->loop()
+#7 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(1351): Workerman\Worker->run()
+#8 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(1294): Workerman\Worker::forkWorkersForWindows()
+#9 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#10 D:\WWW\CRMEB_PRO_V1.1\crmeb\command\Workerman.php(120): Workerman\Worker::runAll()
+#11 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\console\Command.php(210): crmeb\command\Workerman->execute(Object(think\console\Input), Object(think\console\Output))
+#12 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Console.php(600): think\console\Command->run(Object(think\console\Input), Object(think\console\Output))
+#13 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Console.php(259): think\Console->doRunCommand(Object(crmeb\command\Workerman), Object(think\console\Input), Object(think\console\Output))
+#14 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Console.php(196): think\Console->doRun(Object(think\console\Input), Object(think\console\Output))
+#15 D:\WWW\CRMEB_PRO_V1.1\think(19): think\Console->run()
+#16 {main}
+2020-09-19 17:39:08 pid:1 Worker process terminated
+2020-09-19 18:12:49 pid:1 PDOException: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away in D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\think-orm\src\db\PDOConnection.php:1403
+Stack trace:
+#0 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\think-orm\src\db\PDOConnection.php(1403): PDO->beginTransaction()
+#1 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\think-orm\src\db\PDOConnection.php(1372): think\db\PDOConnection->startTrans()
+#2 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\think-orm\src\db\concern\Transaction.php(82): think\db\PDOConnection->transaction(Object(Closure))
+#3 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\think-orm\src\Model.php(653): think\db\BaseQuery->transaction(Object(Closure))
+#4 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\think-orm\src\Model.php(534): think\Model->updateData()
+#5 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\think-orm\src\Model.php(872): think\Model->save(Array)
+#6 D:\WWW\CRMEB_PRO_V1.1\app\dao\BaseDao.php(218): think\Model::update(Array, Array)
+#7 D:\WWW\CRMEB_PRO_V1.1\app\services\message\service\StoreServiceRecordServices.php(59): app\dao\BaseDao->update(Array, Array)
+#8 D:\WWW\CRMEB_PRO_V1.1\crmeb\services\workerman\chat\ChatService.php(137): app\services\message\service\StoreServiceRecordServices->updateRecord(Array, Array)
+#9 [internal function]: crmeb\services\workerman\chat\ChatService->onClose(Object(Workerman\Connection\TcpConnection))
+#10 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Connection\TcpConnection.php(945): call_user_func(Array, Object(Workerman\Connection\TcpConnection))
+#11 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Connection\TcpConnection.php(848): Workerman\Connection\TcpConnection->destroy()
+#12 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Protocols\Websocket.php(105): Workerman\Connection\TcpConnection->close('\x88\x02'\x10', true)
+#13 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Connection\TcpConnection.php(621): Workerman\Protocols\Websocket::input('\x88\x82h\x98\x92[kq', Object(Workerman\Connection\TcpConnection))
+#14 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #640)
+#15 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Events\Select.php(294): call_user_func_array(Array, Array)
+#16 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(2357): Workerman\Events\Select->loop()
+#17 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(1351): Workerman\Worker->run()
+#18 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(1294): Workerman\Worker::forkWorkersForWindows()
+#19 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#20 D:\WWW\CRMEB_PRO_V1.1\crmeb\command\Workerman.php(120): Workerman\Worker::runAll()
+#21 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\console\Command.php(210): crmeb\command\Workerman->execute(Object(think\console\Input), Object(think\console\Output))
+#22 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Console.php(600): think\console\Command->run(Object(think\console\Input), Object(think\console\Output))
+#23 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Console.php(259): think\Console->doRunCommand(Object(crmeb\command\Workerman), Object(think\console\Input), Object(think\console\Output))
+#24 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Console.php(196): think\Console->doRun(Object(think\console\Input), Object(think\console\Output))
+#25 D:\WWW\CRMEB_PRO_V1.1\think(19): think\Console->run()
+#26 {main}
+2020-09-19 18:12:49 pid:1 Worker process terminated
+2020-09-21 09:59:44 pid:1 PDOException: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away in D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\think-orm\src\db\PDOConnection.php:1403
+Stack trace:
+#0 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\think-orm\src\db\PDOConnection.php(1403): PDO->beginTransaction()
+#1 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\think-orm\src\db\PDOConnection.php(1372): think\db\PDOConnection->startTrans()
+#2 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\think-orm\src\db\concern\Transaction.php(82): think\db\PDOConnection->transaction(Object(Closure))
+#3 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\think-orm\src\Model.php(653): think\db\BaseQuery->transaction(Object(Closure))
+#4 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\think-orm\src\Model.php(534): think\Model->updateData()
+#5 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\think-orm\src\Model.php(872): think\Model->save(Array)
+#6 D:\WWW\CRMEB_PRO_V1.1\app\dao\BaseDao.php(218): think\Model::update(Array, Array)
+#7 D:\WWW\CRMEB_PRO_V1.1\app\services\message\service\StoreServiceRecordServices.php(59): app\dao\BaseDao->update(Array, Array)
+#8 D:\WWW\CRMEB_PRO_V1.1\crmeb\services\workerman\chat\ChatService.php(146): app\services\message\service\StoreServiceRecordServices->updateRecord(Array, Array)
+#9 [internal function]: crmeb\services\workerman\chat\ChatService->onClose(Object(Workerman\Connection\TcpConnection))
+#10 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Connection\TcpConnection.php(945): call_user_func(Array, Object(Workerman\Connection\TcpConnection))
+#11 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Connection\TcpConnection.php(848): Workerman\Connection\TcpConnection->destroy()
+#12 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Protocols\Websocket.php(105): Workerman\Connection\TcpConnection->close('\x88\x02'\x10', true)
+#13 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Connection\TcpConnection.php(621): Workerman\Protocols\Websocket::input('\x88\x82\x06d/\x06\x05\x8D', Object(Workerman\Connection\TcpConnection))
+#14 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #635)
+#15 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Events\Select.php(294): call_user_func_array(Array, Array)
+#16 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(2357): Workerman\Events\Select->loop()
+#17 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(1351): Workerman\Worker->run()
+#18 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(1294): Workerman\Worker::forkWorkersForWindows()
+#19 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#20 D:\WWW\CRMEB_PRO_V1.1\crmeb\command\Workerman.php(120): Workerman\Worker::runAll()
+#21 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\console\Command.php(210): crmeb\command\Workerman->execute(Object(think\console\Input), Object(think\console\Output))
+#22 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Console.php(600): think\console\Command->run(Object(think\console\Input), Object(think\console\Output))
+#23 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Console.php(259): think\Console->doRunCommand(Object(crmeb\command\Workerman), Object(think\console\Input), Object(think\console\Output))
+#24 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Console.php(196): think\Console->doRun(Object(think\console\Input), Object(think\console\Output))
+#25 D:\WWW\CRMEB_PRO_V1.1\think(19): think\Console->run()
+#26 {main}
+2020-09-21 09:59:44 pid:1 Worker process terminated
+2020-10-14 12:26:18 pid:1 think\exception\ErrorException: var_export does not handle circular references in D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\log\driver\File.php:81
+Stack trace:
+#0 [internal function]: think\initializer\Error->appError(2, 'var_export does...', 'D:\\WWW\\CRMEB_PR...', 81, Array)
+#1 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\log\driver\File.php(81): var_export(Array, true)
+#2 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\log\Channel.php(141): think\log\driver\File->save(Array)
+#3 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\log\Channel.php(100): think\log\Channel->save()
+#4 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Log.php(189): think\log\Channel->record(Array, 'error', Array, true)
+#5 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Log.php(227): think\Log->record(Array, 'error', Array)
+#6 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Log.php(275): think\Log->log('error', Array, Array)
+#7 [internal function]: think\Log->error(Array)
+#8 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Facade.php(96): call_user_func_array(Array, Array)
+#9 D:\WWW\CRMEB_PRO_V1.1\crmeb\services\workerman\chat\ChatService.php(109): think\Facade::__callStatic('error', Array)
+#10 [internal function]: crmeb\services\workerman\chat\ChatService->onMessage(Object(Workerman\Connection\TcpConnection), Array)
+#11 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Connection\TcpConnection.php(658): call_user_func(Array, Object(Workerman\Connection\TcpConnection), '{"type":"kefu_l...')
+#12 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #667)
+#13 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Events\Select.php(294): call_user_func_array(Array, Array)
+#14 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(2357): Workerman\Events\Select->loop()
+#15 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(1351): Workerman\Worker->run()
+#16 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(1294): Workerman\Worker::forkWorkersForWindows()
+#17 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#18 D:\WWW\CRMEB_PRO_V1.1\crmeb\command\Workerman.php(120): Workerman\Worker::runAll()
+#19 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\console\Command.php(210): crmeb\command\Workerman->execute(Object(think\console\Input), Object(think\console\Output))
+#20 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Console.php(600): think\console\Command->run(Object(think\console\Input), Object(think\console\Output))
+#21 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Console.php(259): think\Console->doRunCommand(Object(crmeb\command\Workerman), Object(think\console\Input), Object(think\console\Output))
+#22 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Console.php(196): think\Console->doRun(Object(think\console\Input), Object(think\console\Output))
+#23 D:\WWW\CRMEB_PRO_V1.1\think(19): think\Console->run()
+#24 {main}
+2020-10-14 12:26:18 pid:1 Worker process terminated
+2020-10-14 16:29:17 pid:1 think\exception\ErrorException: var_export does not handle circular references in D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\log\driver\File.php:81
+Stack trace:
+#0 [internal function]: think\initializer\Error->appError(2, 'var_export does...', 'D:\\WWW\\CRMEB_PR...', 81, Array)
+#1 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\log\driver\File.php(81): var_export(Array, true)
+#2 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\log\Channel.php(141): think\log\driver\File->save(Array)
+#3 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\log\Channel.php(100): think\log\Channel->save()
+#4 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Log.php(189): think\log\Channel->record(Array, 'error', Array, true)
+#5 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Log.php(227): think\Log->record(Array, 'error', Array)
+#6 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Log.php(275): think\Log->log('error', Array, Array)
+#7 [internal function]: think\Log->error(Array)
+#8 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Facade.php(96): call_user_func_array(Array, Array)
+#9 D:\WWW\CRMEB_PRO_V1.1\crmeb\services\workerman\chat\ChatService.php(109): think\Facade::__callStatic('error', Array)
+#10 [internal function]: crmeb\services\workerman\chat\ChatService->onMessage(Object(Workerman\Connection\TcpConnection), Array)
+#11 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Connection\TcpConnection.php(658): call_user_func(Array, Object(Workerman\Connection\TcpConnection), '{"type":"kefu_l...')
+#12 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #658)
+#13 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Events\Select.php(294): call_user_func_array(Array, Array)
+#14 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(2357): Workerman\Events\Select->loop()
+#15 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(1351): Workerman\Worker->run()
+#16 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(1294): Workerman\Worker::forkWorkersForWindows()
+#17 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#18 D:\WWW\CRMEB_PRO_V1.1\crmeb\command\Workerman.php(120): Workerman\Worker::runAll()
+#19 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\console\Command.php(210): crmeb\command\Workerman->execute(Object(think\console\Input), Object(think\console\Output))
+#20 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Console.php(600): think\console\Command->run(Object(think\console\Input), Object(think\console\Output))
+#21 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Console.php(259): think\Console->doRunCommand(Object(crmeb\command\Workerman), Object(think\console\Input), Object(think\console\Output))
+#22 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Console.php(196): think\Console->doRun(Object(think\console\Input), Object(think\console\Output))
+#23 D:\WWW\CRMEB_PRO_V1.1\think(19): think\Console->run()
+#24 {main}
+2020-10-14 16:29:17 pid:1 Worker process terminated
+2020-10-14 18:08:02 pid:1 think\exception\ErrorException: var_export does not handle circular references in D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\log\driver\File.php:81
+Stack trace:
+#0 [internal function]: think\initializer\Error->appError(2, 'var_export does...', 'D:\\WWW\\CRMEB_PR...', 81, Array)
+#1 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\log\driver\File.php(81): var_export(Array, true)
+#2 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\log\Channel.php(141): think\log\driver\File->save(Array)
+#3 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\log\Channel.php(100): think\log\Channel->save()
+#4 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Log.php(189): think\log\Channel->record(Array, 'error', Array, true)
+#5 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Log.php(227): think\Log->record(Array, 'error', Array)
+#6 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Log.php(275): think\Log->log('error', Array, Array)
+#7 [internal function]: think\Log->error(Array)
+#8 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Facade.php(96): call_user_func_array(Array, Array)
+#9 D:\WWW\CRMEB_PRO_V1.1\crmeb\services\workerman\chat\ChatService.php(109): think\Facade::__callStatic('error', Array)
+#10 [internal function]: crmeb\services\workerman\chat\ChatService->onMessage(Object(Workerman\Connection\TcpConnection), Array)
+#11 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Connection\TcpConnection.php(658): call_user_func(Array, Object(Workerman\Connection\TcpConnection), '{"type":"kefu_l...')
+#12 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #664)
+#13 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Events\Select.php(294): call_user_func_array(Array, Array)
+#14 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(2357): Workerman\Events\Select->loop()
+#15 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(1351): Workerman\Worker->run()
+#16 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(1294): Workerman\Worker::forkWorkersForWindows()
+#17 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#18 D:\WWW\CRMEB_PRO_V1.1\crmeb\command\Workerman.php(120): Workerman\Worker::runAll()
+#19 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\console\Command.php(210): crmeb\command\Workerman->execute(Object(think\console\Input), Object(think\console\Output))
+#20 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Console.php(600): think\console\Command->run(Object(think\console\Input), Object(think\console\Output))
+#21 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Console.php(259): think\Console->doRunCommand(Object(crmeb\command\Workerman), Object(think\console\Input), Object(think\console\Output))
+#22 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Console.php(196): think\Console->doRun(Object(think\console\Input), Object(think\console\Output))
+#23 D:\WWW\CRMEB_PRO_V1.1\think(19): think\Console->run()
+#24 {main}
+2020-10-14 18:08:02 pid:1 Worker process terminated
+2020-10-14 18:15:40 pid:1 PDOException: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away in D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\think-orm\src\db\PDOConnection.php:1403
+Stack trace:
+#0 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\think-orm\src\db\PDOConnection.php(1403): PDO->beginTransaction()
+#1 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\think-orm\src\db\PDOConnection.php(1372): think\db\PDOConnection->startTrans()
+#2 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\think-orm\src\db\concern\Transaction.php(82): think\db\PDOConnection->transaction(Object(Closure))
+#3 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\think-orm\src\Model.php(653): think\db\BaseQuery->transaction(Object(Closure))
+#4 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\think-orm\src\Model.php(534): think\Model->updateData()
+#5 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\think-orm\src\Model.php(872): think\Model->save(Array)
+#6 D:\WWW\CRMEB_PRO_V1.1\app\dao\BaseDao.php(218): think\Model::update(Array, Array)
+#7 D:\WWW\CRMEB_PRO_V1.1\app\services\message\service\StoreServiceRecordServices.php(59): app\dao\BaseDao->update(Array, Array)
+#8 D:\WWW\CRMEB_PRO_V1.1\crmeb\services\workerman\chat\ChatService.php(146): app\services\message\service\StoreServiceRecordServices->updateRecord(Array, Array)
+#9 [internal function]: crmeb\services\workerman\chat\ChatService->onClose(Object(Workerman\Connection\TcpConnection))
+#10 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Connection\TcpConnection.php(945): call_user_func(Array, Object(Workerman\Connection\TcpConnection))
+#11 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Connection\TcpConnection.php(848): Workerman\Connection\TcpConnection->destroy()
+#12 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Protocols\Websocket.php(105): Workerman\Connection\TcpConnection->close('\x88\x02'\x10', true)
+#13 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Connection\TcpConnection.php(621): Workerman\Protocols\Websocket::input('\x88\x82\xC0{Ck\xC3\x92', Object(Workerman\Connection\TcpConnection))
+#14 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #658)
+#15 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Events\Select.php(294): call_user_func_array(Array, Array)
+#16 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(2357): Workerman\Events\Select->loop()
+#17 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(1351): Workerman\Worker->run()
+#18 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(1294): Workerman\Worker::forkWorkersForWindows()
+#19 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#20 D:\WWW\CRMEB_PRO_V1.1\crmeb\command\Workerman.php(120): Workerman\Worker::runAll()
+#21 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\console\Command.php(210): crmeb\command\Workerman->execute(Object(think\console\Input), Object(think\console\Output))
+#22 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Console.php(600): think\console\Command->run(Object(think\console\Input), Object(think\console\Output))
+#23 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Console.php(259): think\Console->doRunCommand(Object(crmeb\command\Workerman), Object(think\console\Input), Object(think\console\Output))
+#24 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Console.php(196): think\Console->doRun(Object(think\console\Input), Object(think\console\Output))
+#25 D:\WWW\CRMEB_PRO_V1.1\think(19): think\Console->run()
+#26 {main}
+2020-10-14 18:15:40 pid:1 Worker process terminated
+2020-10-14 18:22:48 pid:1 PDOException: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away in D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\think-orm\src\db\PDOConnection.php:1403
+Stack trace:
+#0 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\think-orm\src\db\PDOConnection.php(1403): PDO->beginTransaction()
+#1 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\think-orm\src\db\PDOConnection.php(1372): think\db\PDOConnection->startTrans()
+#2 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\think-orm\src\db\concern\Transaction.php(82): think\db\PDOConnection->transaction(Object(Closure))
+#3 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\think-orm\src\Model.php(653): think\db\BaseQuery->transaction(Object(Closure))
+#4 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\think-orm\src\Model.php(534): think\Model->updateData()
+#5 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\think-orm\src\Model.php(872): think\Model->save(Array)
+#6 D:\WWW\CRMEB_PRO_V1.1\app\dao\BaseDao.php(218): think\Model::update(Array, Array)
+#7 D:\WWW\CRMEB_PRO_V1.1\app\services\message\service\StoreServiceRecordServices.php(59): app\dao\BaseDao->update(Array, Array)
+#8 D:\WWW\CRMEB_PRO_V1.1\crmeb\services\workerman\chat\ChatService.php(146): app\services\message\service\StoreServiceRecordServices->updateRecord(Array, Array)
+#9 [internal function]: crmeb\services\workerman\chat\ChatService->onClose(Object(Workerman\Connection\TcpConnection))
+#10 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Connection\TcpConnection.php(945): call_user_func(Array, Object(Workerman\Connection\TcpConnection))
+#11 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Connection\TcpConnection.php(848): Workerman\Connection\TcpConnection->destroy()
+#12 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Protocols\Websocket.php(105): Workerman\Connection\TcpConnection->close('\x88\x02'\x10', true)
+#13 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Connection\TcpConnection.php(621): Workerman\Protocols\Websocket::input('\x88\x82}\xDFVY~6', Object(Workerman\Connection\TcpConnection))
+#14 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #618)
+#15 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Events\Select.php(294): call_user_func_array(Array, Array)
+#16 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(2357): Workerman\Events\Select->loop()
+#17 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(1351): Workerman\Worker->run()
+#18 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(1294): Workerman\Worker::forkWorkersForWindows()
+#19 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#20 D:\WWW\CRMEB_PRO_V1.1\crmeb\command\Workerman.php(120): Workerman\Worker::runAll()
+#21 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\console\Command.php(210): crmeb\command\Workerman->execute(Object(think\console\Input), Object(think\console\Output))
+#22 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Console.php(600): think\console\Command->run(Object(think\console\Input), Object(think\console\Output))
+#23 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Console.php(259): think\Console->doRunCommand(Object(crmeb\command\Workerman), Object(think\console\Input), Object(think\console\Output))
+#24 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Console.php(196): think\Console->doRun(Object(think\console\Input), Object(think\console\Output))
+#25 D:\WWW\CRMEB_PRO_V1.1\think(19): think\Console->run()
+#26 {main}
+2020-10-14 18:22:48 pid:1 Worker process terminated
+2020-10-15 18:28:39 pid:1 think\exception\ErrorException: var_export does not handle circular references in D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\log\driver\File.php:81
+Stack trace:
+#0 [internal function]: think\initializer\Error->appError(2, 'var_export does...', 'D:\\WWW\\CRMEB_PR...', 81, Array)
+#1 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\log\driver\File.php(81): var_export(Array, true)
+#2 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\log\Channel.php(141): think\log\driver\File->save(Array)
+#3 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\log\Channel.php(100): think\log\Channel->save()
+#4 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Log.php(189): think\log\Channel->record(Array, 'error', Array, true)
+#5 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Log.php(227): think\Log->record(Array, 'error', Array)
+#6 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Log.php(275): think\Log->log('error', Array, Array)
+#7 [internal function]: think\Log->error(Array)
+#8 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Facade.php(96): call_user_func_array(Array, Array)
+#9 D:\WWW\CRMEB_PRO_V1.1\crmeb\services\workerman\chat\ChatService.php(109): think\Facade::__callStatic('error', Array)
+#10 [internal function]: crmeb\services\workerman\chat\ChatService->onMessage(Object(Workerman\Connection\TcpConnection), Array)
+#11 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Connection\TcpConnection.php(658): call_user_func(Array, Object(Workerman\Connection\TcpConnection), '{"type":"kefu_l...')
+#12 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #665)
+#13 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Events\Select.php(294): call_user_func_array(Array, Array)
+#14 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(2357): Workerman\Events\Select->loop()
+#15 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(1351): Workerman\Worker->run()
+#16 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(1294): Workerman\Worker::forkWorkersForWindows()
+#17 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#18 D:\WWW\CRMEB_PRO_V1.1\crmeb\command\Workerman.php(120): Workerman\Worker::runAll()
+#19 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\console\Command.php(210): crmeb\command\Workerman->execute(Object(think\console\Input), Object(think\console\Output))
+#20 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Console.php(600): think\console\Command->run(Object(think\console\Input), Object(think\console\Output))
+#21 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Console.php(259): think\Console->doRunCommand(Object(crmeb\command\Workerman), Object(think\console\Input), Object(think\console\Output))
+#22 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Console.php(196): think\Console->doRun(Object(think\console\Input), Object(think\console\Output))
+#23 D:\WWW\CRMEB_PRO_V1.1\think(19): think\Console->run()
+#24 {main}
+2020-10-15 18:28:39 pid:1 Worker process terminated
+2020-10-16 09:16:21 pid:1 think\exception\ErrorException: var_export does not handle circular references in D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\log\driver\File.php:81
+Stack trace:
+#0 [internal function]: think\initializer\Error->appError(2, 'var_export does...', 'D:\\WWW\\CRMEB_PR...', 81, Array)
+#1 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\log\driver\File.php(81): var_export(Array, true)
+#2 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\log\Channel.php(141): think\log\driver\File->save(Array)
+#3 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\log\Channel.php(100): think\log\Channel->save()
+#4 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Log.php(189): think\log\Channel->record(Array, 'error', Array, true)
+#5 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Log.php(227): think\Log->record(Array, 'error', Array)
+#6 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Log.php(275): think\Log->log('error', Array, Array)
+#7 [internal function]: think\Log->error(Array)
+#8 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Facade.php(96): call_user_func_array(Array, Array)
+#9 D:\WWW\CRMEB_PRO_V1.1\crmeb\services\workerman\chat\ChatService.php(110): think\Facade::__callStatic('error', Array)
+#10 [internal function]: crmeb\services\workerman\chat\ChatService->onMessage(Object(Workerman\Connection\TcpConnection), Array)
+#11 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Connection\TcpConnection.php(658): call_user_func(Array, Object(Workerman\Connection\TcpConnection), '{"type":"kefu_l...')
+#12 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #665)
+#13 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Events\Select.php(294): call_user_func_array(Array, Array)
+#14 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(2357): Workerman\Events\Select->loop()
+#15 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(1351): Workerman\Worker->run()
+#16 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(1294): Workerman\Worker::forkWorkersForWindows()
+#17 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#18 D:\WWW\CRMEB_PRO_V1.1\crmeb\command\Workerman.php(120): Workerman\Worker::runAll()
+#19 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\console\Command.php(210): crmeb\command\Workerman->execute(Object(think\console\Input), Object(think\console\Output))
+#20 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Console.php(600): think\console\Command->run(Object(think\console\Input), Object(think\console\Output))
+#21 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Console.php(259): think\Console->doRunCommand(Object(crmeb\command\Workerman), Object(think\console\Input), Object(think\console\Output))
+#22 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Console.php(196): think\Console->doRun(Object(think\console\Input), Object(think\console\Output))
+#23 D:\WWW\CRMEB_PRO_V1.1\think(19): think\Console->run()
+#24 {main}
+2020-10-16 09:16:21 pid:1 Worker process terminated
+2020-10-16 09:18:42 pid:1 think\exception\ErrorException: var_export does not handle circular references in D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\log\driver\File.php:81
+Stack trace:
+#0 [internal function]: think\initializer\Error->appError(2, 'var_export does...', 'D:\\WWW\\CRMEB_PR...', 81, Array)
+#1 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\log\driver\File.php(81): var_export(Array, true)
+#2 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\log\Channel.php(141): think\log\driver\File->save(Array)
+#3 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\log\Channel.php(100): think\log\Channel->save()
+#4 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Log.php(189): think\log\Channel->record(Array, 'error', Array, true)
+#5 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Log.php(227): think\Log->record(Array, 'error', Array)
+#6 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Log.php(275): think\Log->log('error', Array, Array)
+#7 [internal function]: think\Log->error(Array)
+#8 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Facade.php(96): call_user_func_array(Array, Array)
+#9 D:\WWW\CRMEB_PRO_V1.1\crmeb\services\workerman\chat\ChatService.php(110): think\Facade::__callStatic('error', Array)
+#10 [internal function]: crmeb\services\workerman\chat\ChatService->onMessage(Object(Workerman\Connection\TcpConnection), Array)
+#11 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Connection\TcpConnection.php(658): call_user_func(Array, Object(Workerman\Connection\TcpConnection), '{"type":"kefu_l...')
+#12 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #651)
+#13 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Events\Select.php(294): call_user_func_array(Array, Array)
+#14 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(2357): Workerman\Events\Select->loop()
+#15 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(1351): Workerman\Worker->run()
+#16 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(1294): Workerman\Worker::forkWorkersForWindows()
+#17 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#18 D:\WWW\CRMEB_PRO_V1.1\crmeb\command\Workerman.php(120): Workerman\Worker::runAll()
+#19 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\console\Command.php(210): crmeb\command\Workerman->execute(Object(think\console\Input), Object(think\console\Output))
+#20 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Console.php(600): think\console\Command->run(Object(think\console\Input), Object(think\console\Output))
+#21 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Console.php(259): think\Console->doRunCommand(Object(crmeb\command\Workerman), Object(think\console\Input), Object(think\console\Output))
+#22 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Console.php(196): think\Console->doRun(Object(think\console\Input), Object(think\console\Output))
+#23 D:\WWW\CRMEB_PRO_V1.1\think(19): think\Console->run()
+#24 {main}
+2020-10-16 09:18:42 pid:1 Worker process terminated
+2020-10-16 09:32:47 pid:1 PDOException: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away in D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\think-orm\src\db\PDOConnection.php:1403
+Stack trace:
+#0 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\think-orm\src\db\PDOConnection.php(1403): PDO->beginTransaction()
+#1 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\think-orm\src\db\PDOConnection.php(1372): think\db\PDOConnection->startTrans()
+#2 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\think-orm\src\db\concern\Transaction.php(82): think\db\PDOConnection->transaction(Object(Closure))
+#3 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\think-orm\src\Model.php(653): think\db\BaseQuery->transaction(Object(Closure))
+#4 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\think-orm\src\Model.php(534): think\Model->updateData()
+#5 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\think-orm\src\Model.php(872): think\Model->save(Array)
+#6 D:\WWW\CRMEB_PRO_V1.1\app\dao\BaseDao.php(218): think\Model::update(Array, Array)
+#7 D:\WWW\CRMEB_PRO_V1.1\app\services\message\service\StoreServiceRecordServices.php(59): app\dao\BaseDao->update(Array, Array)
+#8 D:\WWW\CRMEB_PRO_V1.1\crmeb\services\workerman\chat\ChatService.php(146): app\services\message\service\StoreServiceRecordServices->updateRecord(Array, Array)
+#9 [internal function]: crmeb\services\workerman\chat\ChatService->onClose(Object(Workerman\Connection\TcpConnection))
+#10 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Connection\TcpConnection.php(945): call_user_func(Array, Object(Workerman\Connection\TcpConnection))
+#11 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Connection\TcpConnection.php(848): Workerman\Connection\TcpConnection->destroy()
+#12 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Protocols\Websocket.php(105): Workerman\Connection\TcpConnection->close('\x88\x02'\x10', true)
+#13 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Connection\TcpConnection.php(621): Workerman\Protocols\Websocket::input('\x88\x82\xD0\xB6\xDB\xAD\xD3_', Object(Workerman\Connection\TcpConnection))
+#14 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #666)
+#15 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Events\Select.php(294): call_user_func_array(Array, Array)
+#16 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(2357): Workerman\Events\Select->loop()
+#17 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(1351): Workerman\Worker->run()
+#18 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(1294): Workerman\Worker::forkWorkersForWindows()
+#19 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#20 D:\WWW\CRMEB_PRO_V1.1\crmeb\command\Workerman.php(120): Workerman\Worker::runAll()
+#21 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\console\Command.php(210): crmeb\command\Workerman->execute(Object(think\console\Input), Object(think\console\Output))
+#22 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Console.php(600): think\console\Command->run(Object(think\console\Input), Object(think\console\Output))
+#23 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Console.php(259): think\Console->doRunCommand(Object(crmeb\command\Workerman), Object(think\console\Input), Object(think\console\Output))
+#24 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Console.php(196): think\Console->doRun(Object(think\console\Input), Object(think\console\Output))
+#25 D:\WWW\CRMEB_PRO_V1.1\think(19): think\Console->run()
+#26 {main}
+2020-10-16 09:32:47 pid:1 Worker process terminated
+2020-10-16 09:49:34 pid:1 PDOException: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away in D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\think-orm\src\db\PDOConnection.php:1403
+Stack trace:
+#0 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\think-orm\src\db\PDOConnection.php(1403): PDO->beginTransaction()
+#1 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\think-orm\src\db\PDOConnection.php(1372): think\db\PDOConnection->startTrans()
+#2 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\think-orm\src\db\concern\Transaction.php(82): think\db\PDOConnection->transaction(Object(Closure))
+#3 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\think-orm\src\Model.php(653): think\db\BaseQuery->transaction(Object(Closure))
+#4 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\think-orm\src\Model.php(534): think\Model->updateData()
+#5 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\think-orm\src\Model.php(872): think\Model->save(Array)
+#6 D:\WWW\CRMEB_PRO_V1.1\app\dao\BaseDao.php(218): think\Model::update(Array, Array)
+#7 D:\WWW\CRMEB_PRO_V1.1\app\services\message\service\StoreServiceRecordServices.php(59): app\dao\BaseDao->update(Array, Array)
+#8 D:\WWW\CRMEB_PRO_V1.1\crmeb\services\workerman\chat\ChatService.php(146): app\services\message\service\StoreServiceRecordServices->updateRecord(Array, Array)
+#9 [internal function]: crmeb\services\workerman\chat\ChatService->onClose(Object(Workerman\Connection\TcpConnection))
+#10 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Connection\TcpConnection.php(945): call_user_func(Array, Object(Workerman\Connection\TcpConnection))
+#11 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Connection\TcpConnection.php(848): Workerman\Connection\TcpConnection->destroy()
+#12 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Protocols\Websocket.php(105): Workerman\Connection\TcpConnection->close('\x88\x02'\x10', true)
+#13 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Connection\TcpConnection.php(621): Workerman\Protocols\Websocket::input('\x88\x82qL\xC5\x12r\xA5', Object(Workerman\Connection\TcpConnection))
+#14 [internal function]: Workerman\Connection\TcpConnection->baseRead(Resource id #618)
+#15 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Events\Select.php(294): call_user_func_array(Array, Array)
+#16 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(2357): Workerman\Events\Select->loop()
+#17 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(1351): Workerman\Worker->run()
+#18 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(1294): Workerman\Worker::forkWorkersForWindows()
+#19 D:\WWW\CRMEB_PRO_V1.1\vendor\workerman\workerman\Worker.php(509): Workerman\Worker::forkWorkers()
+#20 D:\WWW\CRMEB_PRO_V1.1\crmeb\command\Workerman.php(120): Workerman\Worker::runAll()
+#21 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\console\Command.php(210): crmeb\command\Workerman->execute(Object(think\console\Input), Object(think\console\Output))
+#22 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Console.php(600): think\console\Command->run(Object(think\console\Input), Object(think\console\Output))
+#23 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Console.php(259): think\Console->doRunCommand(Object(crmeb\command\Workerman), Object(think\console\Input), Object(think\console\Output))
+#24 D:\WWW\CRMEB_PRO_V1.1\vendor\topthink\framework\src\think\Console.php(196): think\Console->doRun(Object(think\console\Input), Object(think\console\Output))
+#25 D:\WWW\CRMEB_PRO_V1.1\think(19): think\Console->run()
+#26 {main}
+2020-10-16 09:49:34 pid:1 Worker process terminated
+2021-02-15 07:07:15 pid:32450 Workerman[think] status 
+2021-02-15 07:07:15 pid:32450 Workerman[think] not run
+2021-02-15 07:08:36 pid:32456 Workerman[think] start in DAEMON mode
+2021-02-15 07:12:23 pid:32508 Workerman[think] start in DAEMON mode
+2021-02-15 07:17:05 pid:32537 Workerman[think] start in DAEMON mode
+2021-02-15 07:20:32 pid:32583 Workerman[think] start in DEBUG mode
+2021-02-15 07:20:32 pid:32583 Workerman[think] already running
+2021-02-15 07:21:00 pid:32586 Workerman[think] start in DAEMON mode
+2021-02-15 07:21:00 pid:32586 Workerman[think] already running
+2021-02-15 07:21:28 pid:32589 Workerman[think] restart 
+2021-02-15 07:21:28 pid:32589 Workerman[think] is stopping ...
+2021-02-15 07:21:28 pid:32539 Workerman[think] stopping ...
+2021-02-15 07:21:28 pid:32539 Workerman[think] has been stopped
+2021-02-15 07:21:28 pid:32589 Workerman[think] stop success
+2021-02-15 07:31:18 pid:32725 Workerman[think] start in DAEMON mode
+2021-02-15 07:31:18 pid:32725 Workerman[think] already running
+2021-02-15 07:31:27 pid:32727 Workerman[think] restart 
+2021-02-15 07:31:27 pid:32727 Workerman[think] is stopping ...
+2021-02-15 07:31:27 pid:32591 Workerman[think] stopping ...
+2021-02-15 07:31:27 pid:32591 Workerman[think] has been stopped
+2021-02-15 07:31:27 pid:32727 Workerman[think] stop success
+2021-02-15 08:54:30 pid:1150 Workerman[think] start in DAEMON mode
+2021-02-15 17:09:35 pid:7740 Workerman[think] start in DAEMON mode
+2021-02-15 17:09:35 pid:7740 Workerman[think] already running
+2021-02-15 17:10:10 pid:7744 Workerman[think] restart 
+2021-02-15 17:10:10 pid:7744 Workerman[think] is stopping ...
+2021-02-15 17:10:10 pid:1152 Workerman[think] stopping ...
+2021-02-15 17:10:10 pid:1152 Workerman[think] has been stopped
+2021-02-15 17:10:10 pid:7744 Workerman[think] stop success
+2021-02-15 17:37:57 pid:8992 Workerman[think] start in DAEMON mode
+2021-02-15 17:39:28 pid:9012 Workerman[think] start in DAEMON mode
+2021-02-15 17:40:51 pid:9535 Workerman[think] status 
+2021-02-15 17:40:51 pid:9535 Workerman[think] not run
+2021-02-15 17:41:36 pid:9538 Workerman[think] restart 
+2021-02-15 17:41:36 pid:9538 Workerman[think] is stopping ...
+2021-02-15 17:41:36 pid:9538 Workerman[think] stop success
+2021-02-15 17:42:04 pid:9544 Workerman[think] stop 
+2021-02-15 17:42:04 pid:9544 Workerman[think] not run
+2021-02-15 17:42:08 pid:9546 Workerman[think] restart 
+2021-02-15 17:42:08 pid:9546 Workerman[think] is stopping ...
+2021-02-15 17:42:08 pid:9546 Workerman[think] stop success
+2021-02-15 17:42:24 pid:9550 Workerman[think] stop 
+2021-02-15 17:42:24 pid:9550 Workerman[think] not run
+2021-02-15 17:42:37 pid:9559 Workerman[think] start in DAEMON mode
+2021-02-15 17:43:42 pid:9768 Workerman[think] start in DAEMON mode
+2021-02-15 17:46:21 pid:10490 Workerman[think] status 
+2021-02-15 17:46:44 pid:10492 Workerman[think] start in DAEMON mode
+2021-02-15 17:49:18 pid:10507 Workerman[think] restart 
+2021-02-15 17:49:18 pid:10507 Workerman[think] is stopping ...
+2021-02-15 17:49:18 pid:7746 Workerman[think] stopping ...
+2021-02-15 17:49:18 pid:7746 Workerman[think] has been stopped
+2021-02-15 17:49:18 pid:10507 Workerman[think] stop success
+2021-02-20 13:46:18 pid:21914 Workerman[think] stop 
+2021-02-20 13:46:21 pid:21914 Workerman[think] not run
+2021-02-20 13:51:19 pid:22656 Workerman[think] stop 
+2021-02-20 13:51:19 pid:22656 Workerman[think] not run
+2021-03-07 10:01:56 pid:7356 Workerman[think] start in DAEMON mode
+2021-03-07 10:03:24 pid:7448 Workerman[think] start in DAEMON mode
+2021-03-07 10:05:01 pid:7544 Workerman[think] start in DAEMON mode
+2021-03-07 10:05:01 pid:7544 Workerman[think] already running
+2021-03-07 10:06:02 pid:7603 Workerman[think] restart 
+2021-03-07 10:06:02 pid:7603 Workerman[think] is stopping ...
+2021-03-07 10:06:02 pid:7358 Workerman[think] stopping ...
+2021-03-07 10:06:02 pid:7358 Workerman[think] has been stopped
+2021-03-07 10:06:02 pid:7603 Workerman[think] stop success
+2021-04-10 16:40:35 pid:28975 Workerman[think] start in DAEMON mode
+2021-04-10 16:47:04 pid:29418 Workerman[think] start in DAEMON mode
+2021-04-10 16:47:04 pid:29418 Workerman[think] already running
+2021-08-15 17:36:32 pid:28978 Workerman[think] stopping ...
+2021-08-15 17:36:33 pid:28978 worker[none:28981] exit with status 65280
+2021-08-15 17:36:33 pid:28978 Workerman[think] has been stopped
+2021-08-15 18:42:40 pid:24712 Workerman[think] start in DAEMON mode
+2021-08-15 18:42:50 pid:24727 Workerman[think] restart 
+2021-08-15 18:42:50 pid:24727 Workerman[think] is stopping ...
+2021-08-15 18:42:50 pid:24727 Workerman[think] stop success
+2021-08-15 18:43:32 pid:24770 Workerman[think] stop 
+2021-08-15 18:43:32 pid:24770 Workerman[think] not run
+2021-08-15 18:43:37 pid:24775 Workerman[think] start in DAEMON mode
+2021-08-15 18:43:58 pid:24800 Workerman[think] restart 
+2021-08-15 18:43:58 pid:24800 Workerman[think] is stopping ...
+2021-08-15 18:43:58 pid:24800 Workerman[think] stop success
+2021-08-15 18:44:20 pid:24826 Workerman[think] restart 
+2021-08-15 18:44:20 pid:24826 Workerman[think] is stopping ...
+2021-08-15 18:44:20 pid:24826 Workerman[think] stop success
+2021-09-08 07:43:27 pid:29576 Workerman[think] restart 
+2021-09-08 07:43:27 pid:29576 Workerman[think] is stopping ...
+2021-09-08 07:43:27 pid:29576 Workerman[think] stop success
+2021-09-08 07:45:18 pid:29826 Workerman[think] start in DAEMON mode
+2021-09-08 07:45:18 pid:29826 Workerman[think] already running
+2021-09-08 07:49:45 pid:30480 Workerman[think] restart 
+2021-09-08 07:49:45 pid:30480 Workerman[think] is stopping ...
+2021-09-08 07:49:45 pid:30480 Workerman[think] stop success
+2021-09-08 07:50:04 pid:30504 Workerman[think] restart 
+2021-09-08 07:50:04 pid:30504 Workerman[think] is stopping ...
+2021-09-08 07:50:04 pid:29580 Workerman[think] stopping ...
+2021-09-08 07:50:04 pid:29580 Workerman[think] has been stopped
+2021-09-08 07:50:04 pid:30504 Workerman[think] stop success
+2021-09-08 07:52:41 pid:30789 Workerman[think] start in DAEMON mode
+2021-09-08 07:52:41 pid:30789 Workerman[think] already running
+2021-09-08 07:52:48 pid:30796 Workerman[think] start in DEBUG mode
+2021-09-08 07:52:48 pid:30796 Workerman[think] already running
+2021-09-09 23:35:42 pid:30482 Workerman[think] stopping ...
+2021-09-09 23:35:43 pid:30482 Workerman[think] has been stopped
+2021-09-10 00:30:02 pid:6582 Workerman[think] restart 
+2021-09-10 00:30:02 pid:6582 Workerman[think] is stopping ...
+2021-09-10 00:30:02 pid:6582 Workerman[think] stop success
+2021-09-10 00:30:02 pid:6581 Workerman[think] restart 
+2021-09-10 00:30:02 pid:6581 Workerman[think] is stopping ...
+2021-09-10 00:30:02 pid:6581 Workerman[think] stop success

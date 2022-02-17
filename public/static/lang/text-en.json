@@ -1,0 +1,21 @@
+{
+	"home": {
+		"home":"botton",
+		"title":"title",
+		"nav":"nav"
+	},
+	"setting": {
+		"lang_type":3,
+		"setting":"System Settings",
+		"setting_lang":"The system language",
+		"lang":"English",
+		"feedback":"feedback",
+		"about":"About us",
+		"outLogin":"Log out",
+		"cancel":"cancel",
+		"confirm":"confirm",
+		"Chinese":"Chinese",
+		"English":"English",
+		"India":"India"
+	}
+}

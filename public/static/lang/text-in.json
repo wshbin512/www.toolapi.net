@@ -1,0 +1,21 @@
+{
+	"home": {
+		"home":"Tombol",
+		"title":"judul",
+		"nav":"navigasi"
+	},
+	"setting": {
+		"lang_type":1,
+		"setting":"Pengaturan sistem",
+		"setting_lang":"Bahasa sistem",
+		"lang":"Indonesia",
+		"feedback":"Masukan",
+		"about":"tentang kami",
+		"outLogin":"keluar",
+		"cancel":"Membatalkan",
+		"confirm":"Konfirmasi",
+		"Chinese":"Cina",
+		"English":"bahasa Inggris",
+		"India":"Indonesia"
+	}
+}
